@@ -5,9 +5,13 @@ Implementation of "Image Quality Assessment for DIBR Synthesized Views using Ela
 # Running:
 em_score = EM_IQM( im_ori,im_syth , num_fp)
 
+
 - input
+
 im_ori : the reference/original image
+
 im_syn : the synthesized/distorted image 
+
 num_fp : number of feature pointes, in the paper it is set as num_fp=500
 
 -output 
